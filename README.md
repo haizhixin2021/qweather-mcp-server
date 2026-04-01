@@ -29,7 +29,7 @@ Add the following configuration to your MCP client:
   "mcpServers": {
     "qweather": {
       "command": "uvx",
-      "args": ["haizhixin-qweather-mcp"],
+      "args": ["--from", "haizhixin-qweather-mcp", "qweather-mcp"],
       "env": {
         "QWEATHER_API_KEY": "your-api-key-here"
       }
@@ -76,7 +76,7 @@ If you need to use a custom API endpoint (e.g., for paid plans or enterprise acc
   "mcpServers": {
     "qweather": {
       "command": "uvx",
-      "args": ["haizhixin-qweather-mcp"],
+      "args": ["--from", "haizhixin-qweather-mcp", "qweather-mcp"],
       "env": {
         "QWEATHER_API_KEY": "your-api-key-here",
         "QWEATHER_API_URL": "https://api.qweather.com"
@@ -221,7 +221,7 @@ MIT License
   "mcpServers": {
     "qweather": {
       "command": "uvx",
-      "args": ["haizhixin-qweather-mcp"],
+      "args": ["--from", "haizhixin-qweather-mcp", "qweather-mcp"],
       "env": {
         "QWEATHER_API_KEY": "你的API密钥"
       }
@@ -246,7 +246,7 @@ MIT License
   "mcpServers": {
     "qweather": {
       "command": "uvx",
-      "args": ["haizhixin-qweather-mcp"],
+      "args": ["--from", "haizhixin-qweather-mcp", "qweather-mcp"],
       "env": {
         "QWEATHER_API_KEY": "你的API密钥",
         "QWEATHER_API_URL": "https://api.qweather.com"
