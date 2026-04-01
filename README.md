@@ -29,7 +29,7 @@ Add the following configuration to your MCP client:
   "mcpServers": {
     "qweather": {
       "command": "uvx",
-      "args": ["qweather-mcp-server"],
+      "args": ["haizhixin-qweather-mcp"],
       "env": {
         "QWEATHER_API_KEY": "your-api-key-here"
       }
@@ -41,7 +41,7 @@ Add the following configuration to your MCP client:
 Or use pip installation:
 
 ```bash
-pip install qweather-mcp-server
+pip install haizhixin-qweather-mcp
 ```
 
 Then configure:
@@ -76,7 +76,7 @@ If you need to use a custom API endpoint (e.g., for paid plans or enterprise acc
   "mcpServers": {
     "qweather": {
       "command": "uvx",
-      "args": ["qweather-mcp-server"],
+      "args": ["haizhixin-qweather-mcp"],
       "env": {
         "QWEATHER_API_KEY": "your-api-key-here",
         "QWEATHER_API_URL": "https://api.qweather.com"
@@ -166,7 +166,7 @@ AI: ✅ 当前无天气灾害预警
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/qweather-mcp-server.git
+git clone https://github.com/haizhixin2021/qweather-mcp-server.git
 cd qweather-mcp-server
 
 # Install dependencies
@@ -221,7 +221,7 @@ MIT License
   "mcpServers": {
     "qweather": {
       "command": "uvx",
-      "args": ["qweather-mcp-server"],
+      "args": ["haizhixin-qweather-mcp"],
       "env": {
         "QWEATHER_API_KEY": "你的API密钥"
       }
@@ -246,7 +246,7 @@ MIT License
   "mcpServers": {
     "qweather": {
       "command": "uvx",
-      "args": ["qweather-mcp-server"],
+      "args": ["haizhixin-qweather-mcp"],
       "env": {
         "QWEATHER_API_KEY": "你的API密钥",
         "QWEATHER_API_URL": "https://api.qweather.com"
